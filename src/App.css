@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+body {
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
+
+body * {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+.App {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.App * {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.btn-clear-all {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  font-weight: 700;
+  width: 20%;
+  margin-left: 80%;
+  padding: 10px;
+  background-color: gray;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.task-list {
+  width: 90%;
+  margin: auto;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.task-input {
+  margin-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  appearance: none;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.add-task {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.add-task > * {
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.add-task > input {
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.header > * {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
